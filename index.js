@@ -38,7 +38,7 @@ app.use(passport.session());
 
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: "https://ask-your-seniors-igdtuw.vercel.app",
 		methods: "GET,POST,PUT,DELETE",
 		credentials: true,
 	})
